@@ -16,7 +16,7 @@ const NETWORK_CONFIGS: Record<Network, NetworkConfig> = {
   testnet: {
     chainId: 'nillion-chain-testnet-1',
     chainName: 'Nillion Testnet',
-    rpcEndpoint: 'http://rpc.testnet.nilchain-rpc-proxy.nilogy.xyz',
+    rpcEndpoint: 'https://rpc.testnet.nilchain-rpc-proxy.nilogy.xyz',
     nilauthEndpoint: 'https://nilauth.sandbox.app-cluster.sandbox.nilogy.xyz',
     bech32Prefix: 'nillion',
   },
