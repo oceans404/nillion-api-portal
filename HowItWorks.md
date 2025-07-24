@@ -1,10 +1,12 @@
 # How the Nillion API Portal Works
 
-The Nillion API Portal is a web app that helps you manage API key subscriptions using the [`@nillion/nuc`](https://github.com/NillionNetwork/nuc-ts) TypeScript library. Here's what you can do with it:
+[Nillion API Portal](https://nillion-api-portal.vercel.app/) is a web app that helps you manage API key subscriptions using the [`@nillion/nuc`](https://github.com/NillionNetwork/nuc-ts) TypeScript library. Here's what you can do with it:
 
 - Create API Keys for accessing Nillion services
 - Subscribe to Nillion Storage (nilDB) or Nillion Private LLMs (nilAI)
 - Manage and renew your subscriptions
+
+<img width="1236" height="857" alt="Screenshot 2025-07-24 at 9 26 26 AM" src="https://github.com/user-attachments/assets/412865df-9c78-4d08-abc1-fa5142bdfbfc" />
 
 ## How It All Works
 
@@ -94,6 +96,8 @@ This single call:
 - Returns a transaction hash for verification
 
 Developers can see their app credentials and download their API Key (private key), which can be used to build with their chosen Nillion service.
+
+<img width="928" height="726" alt="Screenshot 2025-07-24 at 9 26 03 AM" src="https://github.com/user-attachments/assets/679b3487-9460-4930-9c67-de54a506d10d" />
 
 ### 5. Subscription Status Checking
 
